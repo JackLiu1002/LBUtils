@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'LBUtils_Example' do
+  pod 'LBUtils', :path => '../'
+
+  target 'LBUtils_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
